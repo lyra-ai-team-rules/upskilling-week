@@ -20,6 +20,8 @@ Keep your own company materials and completed worksheets on your computer unless
 
 ## Skill
 
-Kris will supply the workshop skill later. No skill has been added or invented.
+[Build-harness skill bundle](build-harness-bundle.md) is Kris's supplied file, preserved unchanged. It contains the main skill plus four reference files and four templates under `# FILE:` headings. Download it with the rest of the repository or use its Download raw file control.
+
+This is a bundled source, not a one-file installation: for use as a local skill, the main section belongs in `SKILL.md`; each later `# FILE:` section contains the file to save at the named relative path, without its outer four-backtick wrapper. Keep the `references/` and `assets/templates/` folders beside `SKILL.md`. Do not run the whole bundle as a shell script. Follow the skill's consent and no-overwrite checks when using it.
 
 Participant source version: 14 November 2026. Prepared 15 November 2026.
